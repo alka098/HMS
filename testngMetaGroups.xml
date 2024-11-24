@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteMetaGroups">
+  <test thread-count="5" name="TestTestngMetaGroups">
+  <groups>
+  <define name="MetaGroup">
+  
+     <include name="sanity"></include>
+     
+  </define>  
+  
+      <run>
+       <include name="sanity"></include>
+       <exclude name="smoke"></exclude>
+  
+  </run>
+  
+  </groups>
+  
+    <classes>
+      <class name="testngGrouping.TestingMetagouping"/>
+    </classes>
+  </test> <!-- TestMetaGroups -->
+</suite> <!-- SuiteMetaGroups -->

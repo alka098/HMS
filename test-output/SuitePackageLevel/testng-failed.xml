@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuitePackageLevel]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestPackageLevel(failed)">
+    <classes>
+      <class name="testNG.Keyword2">
+        <methods>
+          <include name="pu4"/>
+        </methods>
+      </class> <!-- testNG.Keyword2 -->
+      <class name="testNG.TestSuit2">
+        <methods>
+          <include name="t19"/>
+          <include name="t18"/>
+        </methods>
+      </class> <!-- testNG.TestSuit2 -->
+      <class name="testNG.TestSuit1">
+        <methods>
+          <include name="t4"/>
+          <include name="t3"/>
+        </methods>
+      </class> <!-- testNG.TestSuit1 -->
+      <class name="testNG.Keyword3">
+        <methods>
+          <include name="pu5"/>
+          <include name="pu1"/>
+        </methods>
+      </class> <!-- testNG.Keyword3 -->
+    </classes>
+  </test> <!-- TestPackageLevel(failed) -->
+</suite> <!-- Failed suite [SuitePackageLevel] -->
